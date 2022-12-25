@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+/* start section -1 */
+.p-1 {
+    font-size: 20px;
+    margin: 50px 0px 50px 50px;
+    text-transform: capitalize;
+    cursor: pointer;    
+}
+.cart {
+    background-color: rgb(234, 238, 246);
+    height: 60px;
+}
+
+.sec-1 div {
+    margin: 60px;
+}
+
+.sec-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.sec-1 img {
+    width: 700px;
+    cursor: pointer;
+}
+
+.h-1 {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.p-2 {
+    line-height: 2.0;
+    text-transform: capitalize;
+}
+
+.sec-1 .price {
+    padding: 20px 0px 20px 0px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.sec-1 input {
+    margin: 10px;
+
+}
+.sec-1 .quantity {
+    display: flex;
+    margin-left: 0px;
+}
+
+.sec-1 h6 {
+    font-size: 15px;
+    color: grey;
+    border: 1px solid rgb(226, 154, 212);
+    width: 50px;
+    text-align: center;
+    padding: 10px;
+    height: 50px;
+
+}
+
+.sec-1 button {
+    width: 40px;
+    height: 50px;
+    font-size: 20px;
+    align-items: center;
+    color: blueviolet;
+}
+.sec-1 .ADD {
+    width: 200px;
+    background-color: #ff02fb;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    /* cursor: pointer; */
+    transition: all 1s ease;
+    border-radius: 5px;    
+}
+.sec-1 .ADD:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: translate(0px , -5px);
+}
+/* end section -1 */
+
+/* start section -2 */
+
+.sec-2 {
+    /* margin: 0px 10px;
+    padding: 10px; */
+    background-color: #f5f6f6;
+    width: 100%;
+    height: 750px;
+    padding-top: 100px;
+}
+.sec-2 h1 {
+    text-align: center;
+    margin-bottom: -70px;
+    font-size: 30px;
+}
+
+.sec-2 .Product {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(139, 138, 138); */
+    /* padding: 60px; */
+    margin: 130px;
+
+}
+
+.sec-2 .firs {
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    /* overflow: hidden; */
+    /* margin-left: 7px; */
+    /* position: relative; */
+    cursor: pointer;
+}
+.sec-2 img {
+    width: 100%;
+    height: 300px;
+    
+    /* position: absolute; */
+}
+
+.sec-2 h3 {
+    text-align: center;
+    margin-top: 35px;
+    color:purple;
+
+}
+.sec-2 p {
+    text-align: center;
+    margin-top: 5px;
+    color: rgb(129, 126, 126);
+}
+.sec-2 h4 {
+    text-align: center;
+    color:purple;
+    margin-top: 5px;
+
+
+}
+/* end section -2 */
+
+/* start section-3 */
+
+.sec-4 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 80px;
+}
+
+.sec-4 .li-1 {
+    display: flex;
+    /* background-color: blueviolet; */
+    /* color: darkgrey; */
+    
+}
+.sec-4 .ul {
+    list-style-type: none;
+    margin: 40px;
+    line-height: 2;
+    
+
+}
+.sec-4 .h-4 {
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.sec-4 img {
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+.sec-4 .ofer {
+    text-transform: capitalize;
+    /* color: darkgrey; */
+}
+/* .sec-4 h5 {
+    color: darkgray;
+} */
+
+.sec-4 .fa-solid {
+    color: rgb(130, 26, 227);
+    align-items: center;
+    margin-right: 10px;
+    
+
+}
+.sec-4 .contact {
+    display: flex;
+    line-height: 2.5;
+}
+.sec-4 .sub {
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+.sec-4 button {
+    background-color: #ff02fb;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 1s ease;
+    border-radius: 5px;    
+
+}
+.sec-4 button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: translate(0px , -5px);
+}
+.sec-4 input {
+    height: 40px;
+    
+}
+/* end section -3 */
+
+/* start footer */
+footer {
+    margin-top: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+footer .fa-solid {
+    color: red;
+}
+/* end footer */
